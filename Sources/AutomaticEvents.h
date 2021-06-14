@@ -5,8 +5,9 @@
 //  Created by Yarden Eitan on 4/18/17.
 //  Copyright © 2017 Mixpanel. All rights reserved.
 //
-
+#if !TARGET_OS_OSX
 #import <UIKit/UIKit.h>
+#endif
 #import "MixpanelPeople.h"
 
 
